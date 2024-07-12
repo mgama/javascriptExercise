@@ -1,11 +1,3 @@
-const message = 'Hello world' // Try edit me
-
-// Update header text
-document.querySelector('#header').innerHTML = message
-
-// Log to console
-console.log(message)
-
 //Find duplicates in an array
 //This iterates on the array using 2 loops
 function check_for_duplicate_values_in_array(test_array) {
@@ -40,6 +32,9 @@ console.log(check_for_duplicate_values_in_array(testArrayFour));
 var testArrayFive = '1';
 console.log(check_for_duplicate_values_in_array(testArrayFive));
 
+var testArraySix = ['car', 'car', 'house', 'home', 'house'];
+console.log(check_for_duplicate_values_in_array(testArraySix));
+
 //Find duplicates in an array using index approach and using iterable function forEach
 //This only works for array inputs, and not for string values
 function find_duplicates_by_indexes(test_array) {
@@ -64,7 +59,5 @@ console.log(find_duplicates_by_indexes(testArrayTwo));
 console.log(find_duplicates_by_indexes(testArrayThree));
 console.log(find_duplicates_by_indexes(testArrayFour));
 console.log(find_duplicates_by_indexes(testArrayFive));
-
-var testArraySix = ['car', 'car', 'house', 'home', 'house'];
 console.log(find_duplicates_by_indexes(testArraySix));
 
